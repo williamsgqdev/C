@@ -6,7 +6,7 @@ int main()
     float temp = 25;
     bool sunny = true;
 
-    //AND LOGICAL OPERATOR
+    // AND LOGICAL OPERATOR : Both condition needs to be true
     if (temp >= 0 && temp <= 30 && sunny)
     {
         printf("Weather is good");
@@ -16,7 +16,15 @@ int main()
         printf("Weather is bad");
     }
 
-    // OR LOGICAL OPERATOR
+    // OR LOGICAL OPERATOR : One condition needs to be true
+    if (temp <= 0 || temp >= 30 && sunny)
+    {
+        printf("Weather is good");
+    }
+    else
+    {
+        printf("Weather is bad");
+    }
 
     return 0;
 }
