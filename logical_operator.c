@@ -26,5 +26,10 @@ int main()
         printf("Weather is bad");
     }
 
+    // NOT LOGICAL OPERATOR : not true
+    if(!sunny){
+        printf("Its cloudy outside");
+    }
+
     return 0;
 }
